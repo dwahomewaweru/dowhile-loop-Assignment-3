@@ -11,7 +11,7 @@ int main() {
 
 	// do..while loop to compute sum of numbers
 	do {
-		cout << "Please input 20 and 25 then enter 0 to stop and view sum:\n ";
+		cout << "Please input numbers between 20 and 25 then enter 0 to stop and view sum:\n ";
 		cin >> number;
 		sum += number;
 	} while (number != 0);
